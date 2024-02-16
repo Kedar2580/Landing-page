@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viweport" content="with=device-width, initial-scale=1.0">
+	<title> It's About Us </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header"> 
+		<nav>
+			<a href="index.html"><img src="images/logo2.jpg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="jobs.html">JOBS</a></li>
+					<li><a href="blogs.html">BLOG</a></li>
+					<li><a href="contact us.html">CONTACT US</a></li>
+					<li><a href="login.html">LOGIN</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu"></i>
+			</nav>
+			<h1>About Us</h1>
+		
+	</section>
+
+<!---------------- about us content --------------->
+
+<section class="about-us">
+	
+	<div class="row">
+		<div class="about-col">
+			<h1>We Are World's Largest Job Giving Website</h1>
+			<p>Finding a job can feel like a series of terrible, sit-com-worthy blind dates. The old process places too much value on past experience, pedigree, and connections, overlooking important assets like grit, emotional intelligence, how you think, your potential, and culture fit.<br>
+				<br>
+			We saw way too much talent get overlooked for opportunities because they didn’t attend the *right* school or didn’t have the *right* former title and we realized how much both candidates and companies were missing out.</p>
+			<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+
+		<div class="about-col">
+			<img src="images/about.jpg">
+		</div>
+	</div>
+</section>
+
+<section class="about-us">
+	
+	<div class="row">
+		<div class="about-col">
+			<h1>Some Things........!</h1>
+			<p> Our face has changed a bit over the years, but our mission hasn’t. We are dedicated to providing job seekers with the clearest path to their next amazing opportunity.
+				<br>
+				<br>
+			That mission is written in our DNA. It’s who we are. It’s what drives us. Because we know it’s more than a career move, it’s helping people find their purpose.
+			<br> 
+			<br>
+			We saw huge potential in focusing on company websites as the best and cleanest source of jobs, so we formed LinkUp, a job site with millions of verified listings sourced directly from company career sites.
+			<br>
+			<br>
+			As we developed our proprietary technology that scours the web for the freshest listings, every single day–savvy job seekers and employers noticed.</p>
+			<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+
+		<div class="about-col">
+			<img src="images/ak.png">
+		</div>
+	</div>
+</section>
+
+
+
+<!-------------- footer------------->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Say you asked us How Purveyor started as we’re heading into work on Monday. We’d probably tell you it was created to fuse the power of AI data analytics with insightful, real human coaching to revolutionize the way people build careers. But, ask us on Friday afternoon and we’ll tell you we wanted to build a job dating service, except instead of a person, you’re falling in love with your job. </p>
+
+	<div class="icons">
+		<img src="icones/instagram.png"alt="" height="400" width="400">
+		<img src="icones/twitter.png">
+		<img src="icones/facebook.png">
+		<img src="icones/location.png">
+	</div>
+	<p></p>
+</section>
+ <!-----------JavaScript for Toggle Menu-------->
+	<script>
+		
+		var navLinks = docoument.getElementById("navLinks"); 
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+			
+		}
+	</script>
+
+</body>
+</html>

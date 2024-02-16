@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viweport" content="with=device-width, initial-scale=1.0">
+	<title> JOBS FOR YOU </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header"> 
+		<nav>
+			<a href="index.html"><img src="images/logo2.jpg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="">JOBS</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="contact us.html">CONTACT US</a></li>
+					<li><a href="login.html">LOGIN</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu"></i>
+			</nav>
+			<h1>OUR Certificate & Online Programes For 2022 </h1>
+			<p> </p>
+		
+	</section>
+
+<!--------------  bloge page content ------------->
+
+<section class="blog-content">
+	
+	<div class="row">
+		<div class="blog-left">
+			<img src="images/certificate.jpg">
+			<h2>OUR Certificate & Online Programes For 2022</h2>
+			<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			<br>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<br>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages. </p>
+
+
+			<div class="comment-box">
+				<h3>Leave a Comment</h3>
+				<form class="comment-form">
+					<input type="text" placeholder="Enter Name">
+					<input type="email" placeholder="Enter Email">
+					<textarea rows="5" placeholder="Your Comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</form>
+			</div>
+		</div>
+		<div class="blog-right"></div>
+</section>
+
+    
+<h3></h3>
+
+
+<!-------------- footer------------->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Say you asked us How Purveyor started as we’re heading into work on Monday. We’d probably tell you it was created to fuse the power of AI data analytics with insightful, real human coaching to revolutionize the way people build careers. But, ask us on Friday afternoon and we’ll tell you we wanted to build a job dating service, except instead of a person, you’re falling in love with your job. </p>
+
+	<div class="icons">
+		<img src="icones/instagram.png"alt="" height="400" width="400">
+		<img src="icones/twitter.png">
+		<img src="icones/facebook.png">
+		<img src="icones/location.png">
+	</div>
+	<p></p>
+</section>
+ <!-----------JavaScript for Toggle Menu-------->
+	<script>
+		
+		var navLinks = docoument.getElementById("navLinks"); 
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+			
+		}
+	</script>
+
+</body>
+</html>

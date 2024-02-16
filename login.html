@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viweport" content="with=device-width, initial-scale=1.0">
+    <title> It's About Us </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="images/logo2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="jobs.html">JOBS</a></li>
+                    <li><a href="blogs.html">BLOG</a></li>
+                    <li><a href="contact us.html">CONTACT US</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+            </nav>
+            <h1>Login</h1>
+        
+    </section>
+<!-------------- login------------->
+
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="Password" name="" placeholder="Enter Password Here">
+                <button class="btnn"><a href="#">Login</a></button>
+                <p class="link">Don't Have An Account<br>
+                <a href="#">Sign Up Here</a></p>
+                <p class="liw">Login With Google</p>
+
+
+                <div class="icon">
+                    <img src="icones/google.png" <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">
+                </div>
+            </div>
+
+<script src="https://upkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+
+
+<!-------------- footer------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Say you asked us How Purveyor started as we’re heading into work on Monday. We’d probably tell you it was created to fuse the power of AI data analytics with insightful, real human coaching to revolutionize the way people build careers. But, ask us on Friday afternoon and we’ll tell you we wanted to build a job dating service, except instead of a person, you’re falling in love with your job. </p>
+
+    <div class="icons">
+        <img src="icones/instagram.png"alt="" height="400" width="400">
+        <img src="icones/twitter.png">
+        <img src="icones/facebook.png">
+        <img src="icones/location.png">
+    </div>
+    <p></p>
+</section>
+ <!-----------JavaScript for Toggle Menu-------->
+    <script>
+        
+        var navLinks = docoument.getElementById("navLinks"); 
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>
